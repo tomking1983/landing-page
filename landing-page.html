@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toms's Landing Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+
+
+    <!-- Page Header -->
+    <header>
+        <!-- Navigation Menu-->
+        <nav id="nav">
+            <ul>
+                <li> <a href="landing-page.html">Home</a> </li>
+                <li> <a href="">About</a></li>
+                <li> <a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <h1 class="text-fade">Welcome to J's Tree Surgery</h1>
+    </header>
+
+
+    <!-- Main Section -->
+    <main>
+
+        <!-- Intro Text -->
+        <section>
+            <h2>Our website is undergoing maintenance.<br> Please come back soon or <a href="#contact-form">contact
+                    us</a> below</h2>
+
+            <figure>
+                <img id="logo" src="./img/logo.jpg" width="50%" alt="logo">
+                <figcaption class="img-caption">J's Tree Surgery New Logo</figcaption>
+            </figure>
+
+            
+
+            <p>
+                To find out more about the services available please fill in the contact form below and a member of the
+                team will be in contact. Make sure to check back soon for our brand new website.
+            </p>
+        </section>
+
+
+        <!-- Contact Form -->
+        <section>
+            <form class="form" id="contact-form">
+
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Your first name..">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email..">
+
+                <label for="tel">Telephone</label>
+                <input type="tel" id="tel" name="tel" placeholder="Your telephone number..">
+
+
+                <label for="services">Country</label>
+                <select id="services" name="services">
+                    <option value="general-gardening">General Gardening</option>
+                    <option value="stump-removal">Stump Removal</option>
+                    <option value="tree-felling">Tree Felling</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </main>
+
+
+    <!-- Page Footer -->
+    <footer>
+        <p>Design by <a href="https://github.com/tomking1983" target="_blank">Tom King</a> </p>
+    </footer>
+
+</body>
+
+</html>

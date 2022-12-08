@@ -1,0 +1,170 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(12, 12, 12)
+}
+
+nav li {
+    color: #04AA6D;
+    display: inline;
+    padding: 30px;
+}
+
+nav {
+    background: #4c987c;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    position:fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+nav a {
+    color: #ffffff;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-caption {
+    text-align: center;
+}
+
+p {
+    font-size: 19.5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 150%;
+    color: #4c987c;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+    color: #4c987c;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    line-height: 150%;
+}
+
+header {
+    padding-top: 80px;
+}
+
+footer {
+    background: #4c987c;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.text-fade {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.form {
+    color: #000000;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email] {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+}
+
+
+input[type=tel] {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #337436;
+}
