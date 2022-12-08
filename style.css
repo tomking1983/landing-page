@@ -43,8 +43,6 @@ p {
     font-size: 19.5px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 150%;
     color: #4c987c;
 
 }
@@ -99,6 +97,8 @@ footer p {
     border: 2px solid #ccc;
     border-radius: 25px;
     font-weight: bold;
+    width: 600px;
+    margin: 20px auto;
 }
 
 /* Style inputs with type="text", select elements and textareas */
