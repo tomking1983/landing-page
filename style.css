@@ -80,12 +80,11 @@ footer p {
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
 }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
-  }
 
 .form {
     color: #000000;
