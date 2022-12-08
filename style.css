@@ -17,7 +17,7 @@ nav {
     text-align: center;
     font-size: 30px;
     font-style: oblique;
-    position:fixed;
+    position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
     /* Position the navbar at the top of the page */
@@ -85,6 +85,13 @@ footer p {
     from {
         opacity: 0;
     }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
 
 .form {
     color: #000000;
